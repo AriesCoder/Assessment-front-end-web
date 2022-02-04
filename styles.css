@@ -1,0 +1,129 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.favortie-button{
+	background-color: yellow; 
+	border: 3px black solid;
+	color: rgb(14, 13, 13);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 220px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.favortie-button:hover{
+	height:70px;
+}
+
+.button-list{
+	display: inline-block;
+	width: 700px;
+}
+
+#profile-pic{
+	border-radius: 50%;
+	width: 150px;
+	border: 3px black double;
+	margin-top: 20px;
+}
+
+.icon{
+	width: 19px;
+}
+
+.icon:hover {
+	background-color: yellow;
+	height:50px;
+	width: 50px;
+	cursor:pointer
+} 
+
+.name{
+	font-family: fantasy;
+	font-weight: bolder;
+	text-shadow: yellow 0 0 10px;
+}
+
+.mira-mesa{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:rgb(133, 6, 8)
+}
+
+.navbuttons {
+    display: inline-block;
+    overflow: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    margin: 0 0 1em;
+    white-space: nowrap;
+    background: rgb(255, 255, 255);
+}
+
+.navbuttons li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contact{
+	width: 800px
+}
+
+label {
+	display: flex;
+	align-items: center;
+}
+
+.random-btn{
+	cursor: pointer;
+	height: 30px;
+	border-radius: 15px;
+	background-color: darkturquoise;
+}
+
+.random-btn:hover{
+	background-color: yellow;
+	border: 2px solid black; 
+	height:50px;
+	width: 300px;
+}
+
